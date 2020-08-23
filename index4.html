@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>To open RockPaperScissors®, secondary click, click 'Inspect', and click 'Console'</h1>
+    <script>
+        console.log('Welcome to RockPaperScissors®!');
+        var choice = window.prompt("Pick rock, paper or scissors.");
+        if (choice == 'rock') {
+            console.log('You did rock!');
+            if (Math.round(Math.random()*3) == 0) {
+                console.log('Tie! Computer did rock!');
+            };
+            if (Math.round(Math.random()*3) == 1) {
+                console.log('Tie! Computer did rock!');
+            };
+            if (Math.round(Math.random()*3) == 2) {
+                console.log('You lost! Computer did paper!');
+            };
+            if (Math.floor(Math.random()*3) == 3) {
+                console.log('You won! Computer did scissors!');
+            };
+            if (Math.floor(Math.random()*3) == 4) {
+                console.log('You won! Computer did scissors!');
+            };
+};     
+            
+     
+        if (choice == 'paper') {
+            console.log('You did paper!');
+            if (Math.round(Math.random()*3) == 0) {
+                console.log('Tie! Computer did paper!');
+            };
+            if (Math.round(Math.random()*3) == 1) {
+                console.log('Tie! Computer did paper!');
+            };
+            if (Math.round(Math.random()*3) == 2) {
+                console.log('You lost! Computer did scissors!');
+            };
+            if (Math.floor(Math.random()*3) == 3) {
+                console.log('You won! Computer did rock!');
+            };
+            if (Math.floor(Math.random()*3) == 4) {
+                console.log('You won! Computer did rock!');
+            };
+};     
+        if (choice == 'scissors') {
+            console.log('You did scissors!');
+            if (Math.round(Math.random()*3) == 0) {
+                console.log('Tie! Computer did scissors!');
+            };
+            if (Math.round(Math.random()*3) == 1) {
+                console.log('Tie! Computer did scissors!');
+            };
+            if (Math.round(Math.random()*3) == 2) {
+                console.log('You lost! Computer did rock!');
+            };
+            if (Math.round(Math.random()*3) == 3) {
+                console.log('You won! Computer did paper!');
+            };
+            if (Math.round(Math.random()*3) == 4) {
+                console.log('You won! Computer did paper!');
+            };
+};      
+        console.log('Thank you for playing RockPaperScissors®!');
+        console.log('To play again, reload the page.')
+    </script>
+</body>
+</html>
